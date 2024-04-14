@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Information</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  
+  <div class="background-image"></div>
+
+  <h1>Country Information</h1>
+  
+  <div>
+    <label for="country-filter">Filter by Country:</label>
+    <input type="text" id="country-filter">
+    <button id="filter-button">Filter</button>
+    <button id="reset-button">Reset</button>
+    <button id="sort-button">Sort</button> 
+  
+  </div>
+
+  <div id="country-list">
+    
+  </div>
+  
+  <div id="history">
+    <h2>Search History</h2>
+    <ul id="history-list"></ul>
+  </div>
+
+  <div id="error-message" style="color: red; display: none;"></div>
+   
+  <script src="index.js"></script> 
+</body>
+</html>
