@@ -5,7 +5,7 @@
 #### By *Mwangi Justin*
 
 ## Description
-It's an api that fetches data from an url about country details e.g population ,capitalcity and major language spoken
+It's an api that fetches data from an url about country details e.g population ,capitalcity and major language spoken.If mojaor cities or other details ab out the country it will display N/A
 ## Installation
 You use git clone to be able to download the documents in the GitHub
 
